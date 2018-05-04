@@ -91,7 +91,7 @@ C
 c               
       p0=p/copi                                                    
       write(ut,*) 't=', t, ' p=', p, ' pmax=',pmax, ' pmin=', pmin
-c      write(ut,*) 't*=', -qamp
+      write(ut,*) 't*=', -qamp
       wdelta = delta*copi
       write(ut,*) 'delta=', wdelta
 c     
@@ -165,7 +165,7 @@ c                   Loop for ray segments (or ray pieces)
        vk=vrm(i)   
        nk=nrm(i)    
        iud = itign(i)
-c       write(6,*)'nps=',nps,' rmax=',rmax,' rmin=',rmin,' vk=', vk
+       write(6,*)'nps=',nps,' rmax=',rmax,' rmin=',rmin,' vk=', vk
 c      write(6,*) 'nk=', nk,' p1=',p1 
        call rayps(nps,rmax,rmin,vk,nk,p1,dt,ddel,ddddp,dqamp,rll,iud,
      1 imult,i) 

@@ -28,7 +28,7 @@ c
 c     data  eps/1.e-06/,nmax/99/,qmax/10000./                           exm02160
       data  eps/1.e-06/,nmax/120/,qmax/10000./    
       open(m,file=
-     +  '/home/samhaug/Doornbos_raytrace/rmod.dat',status='old')
+     +  '/home/samhaug/Doornbos_raytracing/rmod.dat',status='old')
 c                                     modified   by S. K.  1995 Sep. 9
 c     read reference radius rc, flag to print model (ind.gt.0)          exm02170
       read(m,1)  rc,ind                                                 exm02180
